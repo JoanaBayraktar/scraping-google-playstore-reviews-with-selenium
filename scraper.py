@@ -113,7 +113,7 @@ dataframe = pd.concat([df_id, df_user, df_dates, df_ratings, df_comments, df_use
 
 
 # save df to csv
-dataframe.to_csv("cwa_de.csv")
+dataframe.to_csv("de.rki.coronawarnapp_rev.csv", sep='\t', encoding='utf-8')
 
 
 # close the driver
